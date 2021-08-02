@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    margin-top: 180px;
+}
+
+.post{
+    width: 500px;
+    height: 350px;
+    background: white;
+    margin: auto;
+}
+
+.head{
+    width: 500px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*outline: 5px solid yellow;*/
+}
+
+.postcard{
+    font-family: 'MonteCarlo', cursive;
+    margin-left: 10px;
+    width: 80%;
+
+}
+
+.pic{
+    width: 20%;
+}
+
+.info{
+    width: 500px;
+    height: 150px;
+    position: relative;
+    display: flex;
+    /*outline: 5px solid red;*/
+}
+
+.texto{
+    font-family: 'MonteCarlo', cursive;
+    font-size: large;
+    margin-left: 10px;
+   margin-top: -20px;
+}
+
+.remitente{
+display: block;
+align-content: space-around;
+}
+
+.pie{
+    width: 500px;
+    height: 100px;
+    /*outline: 5px solid blue;*/
+    position: relative;
+   
+}
+
+.boton{
+    text-align: center;
+    position: relative;
+    top: 45%
+    
+    
+
+}
